@@ -11,7 +11,7 @@ USER_INFO = {
 # server酱
 SERVER_CHAN_SCKEY = os.getenv("SECRET")  # 申请地址http://sc.ftqq.com/3.version
 SERVER_CHAN = {
-    'status': True,  # 如果关闭server酱功能，请改为False
+    'status': False,  # 如果关闭server酱功能，请改为False
     'url': 'https://sc.ftqq.com/{}.send'.format(SERVER_CHAN_SCKEY)
 }
 
